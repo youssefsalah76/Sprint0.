@@ -1,0 +1,17 @@
+$ git init
+$ git remote add origin https://github.com/youssefsalah76/Sprint0..git
+$ git add file1.txt
+$ git commit -m "file1.txt added to repo"
+$ git add file2.txt
+$ git commit -m "file2.txt added to repo"
+$ git add file3.txt
+$ git commit -m "file3.txt added to repo"
+$ git rm file2.txt
+$ git commit -m "Remove file2.txt"
+$ git status
+$ git reset --hard HEAD^
+$ git push origin master
+$ git checkout -b ReadMe
+$ git add README.md
+$ git commit -m "created new branch ReadMe and added file README.md to it"
+$ git push origin ReadMe
